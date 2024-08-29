@@ -23,6 +23,10 @@
 
   </div>
 
+## Disclaimer
+
+I did not contribute to this project, I just forked it to be able to have my NvChad configs in my GitHub account. Please go to the original repository to see the original project and install NvChad.
+
 ## Showcase
 
 <img src="https://nvchad.com/features/nvdash.webp">
