@@ -63,6 +63,7 @@ local plugins = {
                 "mypy",
                 "pyright",
                 "pylint",
+                "julia-lsp",
             },
         },
     },
