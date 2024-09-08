@@ -16,3 +16,8 @@ lspconfig.julials.setup({
     capabilities = capabilities,
     filetypes = {"julia"},
 })
+lspconfig.ltex.setup({
+    on_attach = on_attach,
+    capabilities = capabilities,
+    filetypes = {"tex", "latex"},
+})

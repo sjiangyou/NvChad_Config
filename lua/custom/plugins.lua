@@ -64,6 +64,7 @@ local plugins = {
                 "pyright",
                 "pylint",
                 "julia-lsp",
+                "ltex-ls"
             },
         },
     },
