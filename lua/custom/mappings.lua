@@ -30,4 +30,13 @@ M.gitsigns = {
     }
 }
 
+M.auto_session = {
+    plugin = false,
+    n = {
+        ["<leader>cs"] = {
+            "<cmd> SessionSearch<CR>", "List Sessions"
+        }
+    }
+}
+
 return M

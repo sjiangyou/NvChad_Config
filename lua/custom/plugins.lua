@@ -7,6 +7,30 @@ local plugins = {
         lazy = false,
     },
     {
+        "rmagatti/auto-session",
+        lazy = false,
+        dependencies = {
+            "nvim-telescope/telescope.nvim",
+        },
+        config = function()
+            require("auto-session").setup({
+                auto_session_suppress_dirs = {"~/", "~/Projects", "~/Downloads", "/"},
+                session_lens = {
+                    buftypes_to_ignore = {},
+                    load_on_setup = true,
+                    theme_conf = {border = true,},
+                    previewer = false,
+                },
+                pre_save_cmds = {
+                    "tabdo NvimTreeClose",
+                    "TelescopeClose",
+                    "TroubleClose",
+                    "LspTroubleClose",
+                },
+            })
+        end,
+    },
+    {
         "nvim-neotest/nvim-nio"
     },
     {
