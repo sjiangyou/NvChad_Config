@@ -23,9 +23,9 @@ local plugins = {
                 },
                 pre_save_cmds = {
                     "tabdo NvimTreeClose",
-                    "TelescopeClose",
-                    "TroubleClose",
-                    "LspTroubleClose",
+                    "tabdo TelescopeClose",
+                    "tabdo TroubleClose",
+                    "tabdo LspTroubleClose",
                 },
             })
         end,
