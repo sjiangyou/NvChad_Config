@@ -88,7 +88,8 @@ local plugins = {
                 "pyright",
                 "pylint",
                 "julia-lsp",
-                "ltex-ls"
+                "ltex-ls",
+                "java-language-server",
             },
         },
     },

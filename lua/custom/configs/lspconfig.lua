@@ -16,8 +16,16 @@ lspconfig.julials.setup({
     capabilities = capabilities,
     filetypes = {"julia"},
 })
+
 lspconfig.ltex.setup({
     on_attach = on_attach,
     capabilities = capabilities,
     filetypes = {"tex", "latex"},
+})
+
+lspconfig.java_language_server.setup({
+    on_attach = on_attach,
+    capabilities = capabilities,
+    filetypes = {"java"},
+    cmd = { "java-language-server" },
 })
