@@ -31,9 +31,6 @@ local plugins = {
         end,
     },
     {
-        "nvim-neotest/nvim-nio"
-    },
-    {
         "nvimtools/none-ls.nvim",
         ft = {"python"},
         opts = function()
@@ -60,8 +57,8 @@ local plugins = {
     {
         "neovim/nvim-lspconfig",
         config = function()
-        require("plugins.configs.lspconfig")
-        require("custom.configs.lspconfig")
+            require("plugins.configs.lspconfig")
+            require("custom.configs.lspconfig")
         end,
     },
 }
